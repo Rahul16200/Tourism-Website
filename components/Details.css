@@ -1,0 +1,42 @@
+.contentOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: -6rem;
+
+
+    
+}
+.trainIcon{
+    align-items: center;
+    color: #ffacb0;
+transform: scale(3);
+margin: 2rem;
+}
+.para1{
+    align-items: center;
+    font-size: 17px;
+    width: 20rem;
+    line-height: 1.8;
+    line-break: auto;
+    padding: .3rem;
+    font-weight:400;
+    color:#6E6E6E;
+}
+.head1{
+    align-items: center;
+    font-size: 24px;
+    padding: .4rem;
+    font-weight: 600;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40rem;
+    flex-wrap:wrap ;
+padding: 0 5rem;
+}
