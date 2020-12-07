@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRangePicker } from "react-date-range";
-
+import PeopleIcon from "@material-ui/icons/People";
+import {Button} from "@material-ui/core"
+import "./SearchDates.css"
 function SearchDates() {
     const [startDate, setStartDate] = useState(new Date())
     const [endDate,setEndDate] = useState(new Date())
@@ -18,9 +20,13 @@ function SearchDates() {
         setEndDate(ranges.selection.endDate)
     }
     return (
-        <div>
-        <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
-            
+        <div className="searchBox">
+        <DateRangePicker className="dateRange" ranges={[selectionRange]} onChange={handleSelect} />
+        <h2 className="head">
+                Number of guests <PeopleIcon />
+            </h2>
+            <input min={0} defaultValue={2} type="number" />
+            <Button className="button" >Confirm</Button>
         </div>
     )
 }

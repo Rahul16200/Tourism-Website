@@ -1,0 +1,54 @@
+.searchBox >input{
+    width: 100px;
+    padding: 30px;
+    border: none;
+    height: 30px;
+    outline-style: none;
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+  padding: 0 2rem;
+  width: 30rem;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bold;
+  outline-style: none;
+  
+}
+
+.searchBox  >input:focus{
+    outline-width: none;
+    outline-style: none;
+    
+    
+}
+.searchBox >button{
+    color: #ff7779;
+    text-transform: inherit;
+    font-weight: bold;
+    background-color: white;
+    font-size: 14px;
+}
+.searchBox >button :hover{
+
+ 
+  border: none;
+  outline-style: none;
+
+    transition: 1s;
+}
+.button{
+  
+    color: #ff7779;
+}
+
+.searchBox{
+    width: 100vw;
+    font-weight: 900;
+
+}
+.dateRange{}
