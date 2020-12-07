@@ -1,0 +1,43 @@
+.thumbnail{
+ 
+
+    background-image:url("../images/slider6.jpg");
+    background-repeat: no-repeat;
+    filter: brightness(.8);
+height: 30rem;;
+text-align: center;
+background-position: center;
+background-size: 100rem;
+
+   
+}
+.video-size{
+    width: 100%;
+    height: 34rem;
+}
+.playIcon{
+    margin-top: 1rem;
+    align-items: center;
+    color: #FF4A52;
+    transform: scale(2);
+    margin-left: -2rem;
+
+}
+.videoHead{
+    align-items: center;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+  padding-top: 8rem;
+
+}
+
+.youtubeVideo{
+    width: 100%;
+    margin-top: -10rem;
+    position: sticky;
+    z-index: 100;
+}
