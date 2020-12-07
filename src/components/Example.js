@@ -2,9 +2,9 @@ import React from "react";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import slider9 from "../images/slider9.jpg"
-import slider5 from "../images/slider5.jpg"
+import slider3 from "../images/slider3.jpg"
 import slider6 from "../images/slider6.jpg"
-import slider7 from "../images/slider7.jpg"
+import slider11 from "../images/banner1.jpeg"
 import {Button} from "@material-ui/core"
 
 import "./Example.css"
@@ -27,7 +27,7 @@ const content = [{
 {
   title:"Switzerland",
   description:"Awesome Country to Explore",
-  image:slider7,
+  image:slider11,
   button:"explore now"
 },
 
